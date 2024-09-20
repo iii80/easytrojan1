@@ -1,4 +1,4 @@
-name: Build and Publish Caddy for X86 and ARM
+name: Build and Publish Caddy for X86 and ARM NEW
 
 on:
   workflow_dispatch:
@@ -45,7 +45,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: 2.7.5
+          tag_name: 2.7.6
           release_name: caddy_trojan
           body: Release of caddy_trojan binaries.
           draft: false
