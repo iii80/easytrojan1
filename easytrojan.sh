@@ -3,7 +3,7 @@
 # Notes: EasyTrojan for CentOS/RedHat 7+ Debian 9+ and Ubuntu 16+
 #
 # Project home page:
-#        https://github.com/autotls/easytrojan
+#        https://github.com/iii80/easytrojannew
 #
 # How to use:
 #
@@ -39,10 +39,10 @@ check_cmd () { command -v "$1" &>/dev/null; }
 
 case $(uname -m) in
     x86_64)
-        caddy_url=https://github.com/autoxtls/easytrojan/releases/download/2.7.6/caddy_amd64
+        caddy_url=https://github.com/iii80/easytrojannew/releases/download/2.7.6/caddy_amd64
         ;;
     aarch64)
-        caddy_url=https://github.com/autoxtls/easytrojan/releases/download/2.7.6/caddy_arm64
+        caddy_url=https://github.com/iii80/easytrojannew/releases/download/2.7.6/caddy_arm64
         ;;
     *) 
         echo "Error: Your system version does not support"
