@@ -3,7 +3,7 @@
 # Notes: EasyMyTrojan for CentOS/RedHat 7+ Debian 9+ and Ubuntu 16+
 #
 # Project home page:
-#        https://github.com/autoxtls/easytrojan
+#        https://github.com/iii80/easytrojannew
 
 [ "$(id -u)" != "0" ] && { echo "Error: You must be root to run this script"; exit 1; }
 
